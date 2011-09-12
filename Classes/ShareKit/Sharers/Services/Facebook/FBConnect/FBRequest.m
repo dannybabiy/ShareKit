@@ -321,6 +321,7 @@ static const NSTimeInterval kTimeoutInterval = 180.0;
   _responseText = [[NSMutableData alloc] init];
 
   NSHTTPURLResponse* httpResponse = (NSHTTPURLResponse*)response;
+
   if ([_delegate respondsToSelector:@selector(request:didReceiveResponse:)]) {
     [_delegate request:self didReceiveResponse:httpResponse];
   }

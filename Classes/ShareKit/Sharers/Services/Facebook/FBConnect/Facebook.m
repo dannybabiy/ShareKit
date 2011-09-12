@@ -253,6 +253,7 @@ static NSString* kSDKVersion = @"2";
   }
 
   NSDictionary *params = [self parseURLParams:query];
+  NSLog(@"Params: %@", params);
   NSString *accessToken = [params valueForKey:@"access_token"];
 
   // If the URL doesn't contain the access token, an error has occurred.
@@ -293,6 +294,7 @@ static NSString* kSDKVersion = @"2";
       expirationDate = [NSDate dateWithTimeIntervalSinceNow:expVal];
     }
   }
+
 
   [self fbDialogLogin:accessToken expirationDate:expirationDate];
   return YES;

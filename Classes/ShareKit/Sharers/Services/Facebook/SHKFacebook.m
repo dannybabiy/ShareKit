@@ -20,7 +20,7 @@ static NSString *const SHKFacebookPendingItem = @"SHKFacebookPendingItem";
 
 - (id)init {
 	if ((self = [super init])) {
-		permissions = [[NSArray alloc] initWithObjects:@"publish_stream", @"offline_access", nil];
+		permissions = [[NSArray alloc] initWithObjects:@"publish_stream", @"offline_access", @"user_about_me", @"user_checkins", @"user_location", @"email", nil];
 	}
 	
 	return self;
