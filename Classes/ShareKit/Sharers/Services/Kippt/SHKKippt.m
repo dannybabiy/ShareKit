@@ -25,7 +25,7 @@
 
 
 #import "SHKKippt.h"
-#import "JSONKit.h"
+#import "../../../../../../RestKit/Vendor/JSONKit/JSONKit.h"
 #import <objc/runtime.h>
 
 // -- Constants --
