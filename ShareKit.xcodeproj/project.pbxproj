@@ -101,7 +101,6 @@
 		7A1AFCA8160E11810086B98A /* SHKFormFieldCellSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABCDBA71577528B003BBFFD /* SHKFormFieldCellSwitch.h */; };
 		7A1AFCA9160E11810086B98A /* SHKFormFieldCellOptionPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABCDBAE157757D1003BBFFD /* SHKFormFieldCellOptionPicker.h */; };
 		7A1AFCAA160E11810086B98A /* SHKFormFieldCell_PrivateProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A4CAA161577BEF90010E6B3 /* SHKFormFieldCell_PrivateProperties.h */; };
-		7A1AFCB0160E11F50086B98A /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF2523714F0499E00CE8709 /* JSONKit.m */; };
 		7A1AFCB6160E11F90086B98A /* Base64Transcoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A26E5B4156CD8A70011E15F /* Base64Transcoder.h */; };
 		7A1AFCB7160E11F90086B98A /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A26E5B6156CD8A70011E15F /* hmac.h */; };
 		7A1AFCB8160E11F90086B98A /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A26E5B8156CD8A70011E15F /* sha1.h */; };
@@ -125,8 +124,6 @@
 		7A1AFCDC160E127B0086B98A /* SHKFormFieldCellSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABCDBA71577528B003BBFFD /* SHKFormFieldCellSwitch.h */; };
 		7A1AFCDD160E127B0086B98A /* SHKFormFieldCellOptionPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABCDBAE157757D1003BBFFD /* SHKFormFieldCellOptionPicker.h */; };
 		7A1AFCDE160E127B0086B98A /* SHKFormFieldCell_PrivateProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A4CAA161577BEF90010E6B3 /* SHKFormFieldCell_PrivateProperties.h */; };
-		7A1AFCE3160E13080086B98A /* GCOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC75E156CFBF400E3303E /* GCOAuth.m */; };
-		7A1AFCE4160E13080086B98A /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC761156CFBF400E3303E /* NSData+Base64.m */; };
 		7A1AFCE5160E13080086B98A /* TBinaryProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC76E156CFBF400E3303E /* TBinaryProtocol.m */; };
 		7A1AFCE6160E13080086B98A /* TProtocolException.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC771156CFBF400E3303E /* TProtocolException.m */; };
 		7A1AFCE7160E13080086B98A /* TProtocolUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC774156CFBF400E3303E /* TProtocolUtil.m */; };
@@ -229,7 +226,6 @@
 		7AB534C81552BE7D00171BCE /* UIWebView+SHK.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A5367A11DBE3B9004A1712 /* UIWebView+SHK.m */; };
 		7AB534CA1552BE7D00171BCE /* NSMutableDictionary+NSNullsToEmptyStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A25903614CD4E8000FBA124 /* NSMutableDictionary+NSNullsToEmptyStrings.m */; };
 		7AB534CC1552BE7D00171BCE /* NSHTTPCookieStorage+DeleteForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A333EE414CC5B9D0060900C /* NSHTTPCookieStorage+DeleteForURL.m */; };
-		7AB534CE1552BE7D00171BCE /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF2523714F0499E00CE8709 /* JSONKit.m */; };
 		7AB534D01552BE7D00171BCE /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = A57772B314BA0748003FC744 /* SSKeychain.m */; };
 		7AB534D21552BE7D00171BCE /* NSMutableURLRequest+Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A5368211DBE3B9004A1712 /* NSMutableURLRequest+Parameters.m */; };
 		7AB534D41552BE7D00171BCE /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A5368411DBE3B9004A1712 /* NSString+URLEncoding.m */; };
@@ -313,8 +309,6 @@
 		7AB535891552BE7D00171BCE /* SHKOAuthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536FB11DBE3B9004A1712 /* SHKOAuthView.m */; };
 		7AB5358B1552BE7D00171BCE /* SHKShareMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536FD11DBE3B9004A1712 /* SHKShareMenu.m */; };
 		7AB5358F1552BE7D00171BCE /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536B411DBE3B9004A1712 /* Reachability.m */; };
-		7AB804F115AC79D8004FB430 /* GCOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC75E156CFBF400E3303E /* GCOAuth.m */; };
-		7AB804F315AC79D8004FB430 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC761156CFBF400E3303E /* NSData+Base64.m */; };
 		7AB804F715AC7A21004FB430 /* TBinaryProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC76E156CFBF400E3303E /* TBinaryProtocol.m */; };
 		7AB804F815AC7A21004FB430 /* TProtocolException.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC771156CFBF400E3303E /* TProtocolException.m */; };
 		7AB804F915AC7A21004FB430 /* TProtocolUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC774156CFBF400E3303E /* TProtocolUtil.m */; };
@@ -561,9 +555,7 @@
 		427FBAED15934A0D0024F825 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
 		427FBAEE15934A0D0024F825 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
 		42EDC75D156CFBF400E3303E /* GCOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCOAuth.h; sourceTree = "<group>"; };
-		42EDC75E156CFBF400E3303E /* GCOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCOAuth.m; sourceTree = "<group>"; };
 		42EDC760156CFBF400E3303E /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
-		42EDC761156CFBF400E3303E /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 		42EDC76D156CFBF400E3303E /* TBinaryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBinaryProtocol.h; sourceTree = "<group>"; };
 		42EDC76E156CFBF400E3303E /* TBinaryProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBinaryProtocol.m; sourceTree = "<group>"; };
 		42EDC76F156CFBF400E3303E /* TProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocol.h; sourceTree = "<group>"; };
@@ -817,7 +809,6 @@
 		7AEE042D160E1D5A00FEC06E /* libRead It Later.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libRead It Later.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AEE043D160E1D5B00FEC06E /* libTumblr.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTumblr.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AF2523614F0499E00CE8709 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
-		7AF2523714F0499E00CE8709 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		7AF78BB114B71FD8008ACA5D /* SHKFormControllerLargeTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKFormControllerLargeTextField.h; sourceTree = "<group>"; };
 		7AF78BB214B71FD8008ACA5D /* SHKFormControllerLargeTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKFormControllerLargeTextField.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* ShareKit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ShareKit-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
@@ -1276,9 +1267,7 @@
 			isa = PBXGroup;
 			children = (
 				42EDC75D156CFBF400E3303E /* GCOAuth.h */,
-				42EDC75E156CFBF400E3303E /* GCOAuth.m */,
 				42EDC760156CFBF400E3303E /* NSData+Base64.h */,
-				42EDC761156CFBF400E3303E /* NSData+Base64.m */,
 			);
 			path = "cocoa-oauth";
 			sourceTree = "<group>";
@@ -1948,7 +1937,6 @@
 			isa = PBXGroup;
 			children = (
 				7AF2523614F0499E00CE8709 /* JSONKit.h */,
-				7AF2523714F0499E00CE8709 /* JSONKit.m */,
 			);
 			name = JSONKit;
 			path = ../../../../Submodules/JSONKit;
@@ -3228,7 +3216,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A1AFCB0160E11F50086B98A /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3252,8 +3239,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A1AFCE3160E13080086B98A /* GCOAuth.m in Sources */,
-				7A1AFCE4160E13080086B98A /* NSData+Base64.m in Sources */,
 				7A1AFCE5160E13080086B98A /* TBinaryProtocol.m in Sources */,
 				7A1AFCE6160E13080086B98A /* TProtocolException.m in Sources */,
 				7A1AFCE7160E13080086B98A /* TProtocolUtil.m in Sources */,
@@ -3343,7 +3328,6 @@
 				7AB534C81552BE7D00171BCE /* UIWebView+SHK.m in Sources */,
 				7AB534CA1552BE7D00171BCE /* NSMutableDictionary+NSNullsToEmptyStrings.m in Sources */,
 				7AB534CC1552BE7D00171BCE /* NSHTTPCookieStorage+DeleteForURL.m in Sources */,
-				7AB534CE1552BE7D00171BCE /* JSONKit.m in Sources */,
 				7AB534D01552BE7D00171BCE /* SSKeychain.m in Sources */,
 				7AB534D21552BE7D00171BCE /* NSMutableURLRequest+Parameters.m in Sources */,
 				7AB534D41552BE7D00171BCE /* NSString+URLEncoding.m in Sources */,
@@ -3438,8 +3422,6 @@
 				7A164DC4157662ED00D55DB4 /* SHKFormFieldCellText.m in Sources */,
 				7ABCDBAB1577528B003BBFFD /* SHKFormFieldCellSwitch.m in Sources */,
 				7ABCDBB2157757D1003BBFFD /* SHKFormFieldCellOptionPicker.m in Sources */,
-				7AB804F115AC79D8004FB430 /* GCOAuth.m in Sources */,
-				7AB804F315AC79D8004FB430 /* NSData+Base64.m in Sources */,
 				7AB804F715AC7A21004FB430 /* TBinaryProtocol.m in Sources */,
 				7AB804F815AC7A21004FB430 /* TProtocolException.m in Sources */,
 				7AB804F915AC7A21004FB430 /* TProtocolUtil.m in Sources */,
